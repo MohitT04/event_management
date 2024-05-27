@@ -8,6 +8,7 @@ import FrmVenue from "./Screen/Admin/FrmVenue";
 import FrmEquipment from "./Screen/Admin/FrmEquipment";
 import FrmFood from "./Screen/Admin/FrmFood";
 import FrmLight from "./Screen/Admin/FrmLight";
+import FrmFlower from "./Screen/Admin/FrmFlower";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path="/Admin/dashboard/Equipment" element={<FrmEquipment />} />
       <Route path="/Admin/dashboard/Food" element={<FrmFood />} />
       <Route path="/Admin/dashboard/Light" element={<FrmLight />} />
+      <Route path="/Admin/dashboard/Flower" element={<FrmFlower />} />
     </Routes>
   </BrowserRouter>
 );
